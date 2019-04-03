@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    width: 1264px;
+    height: 60px;
+    background-color: #778A50;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: #EDF2C5;
+    font-family: 'ArialMT', sans-serif;
+    font-size: 12px;
+}
