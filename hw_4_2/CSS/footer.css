@@ -1,0 +1,76 @@
+.footer {
+    /* display: flex; */
+    width: 100%;
+    min-width: 1280px;
+    height: 126px;
+    background-color: #222A35;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* ---------------------- */
+
+.footer-icon {
+    width: 100%;
+    min-width: 1280px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.footer-icon img {
+    margin-right: 29.1px;
+}
+
+#icon_fb {
+    width: 37.7953px;
+    height: 37.7953px;
+}
+
+#icon_ig {
+    width: 30.23624px;
+    height: 30.23624px;
+}
+
+#icon_twitter {
+    width: 37.7953px;
+    height: 37.7953px;
+}
+
+#icon_youtube {
+    width: 30.23624px;
+    height: 30.23624px;
+}
+
+/* ---------------------- */
+
+.footer-text {
+    width: 100%;
+    min-width: 1280px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+
+.footer-text a {
+    font-size: 14px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 480px;
+}
