@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    /* 當你設定一個元素樣式為 box-sizing: border-box;，這個元素的內距和邊框將不會增加元素本身的寬度。 */
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+html {
+    width: 100%;
+}
+
+body {              /* 整個網頁頁面 */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 1em;
+}
+
+.domain {
+    width: 100%;
+    min-width: 1280px;
+    height: 100%;
+    background: #F2F2F2;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 190px;
+}
+
+.header-logo img {
+    width: 372px;
+    height: 97px;
+}
+
+.nav {
+    width: 100%;
+    min-width: 1280px;
+    height: 51px;
+    background: #222A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav-text a {
+    font-size: 16px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14.5px 35px;
+    color: #FFFFFF;
+}
+
+.nav-text a:hover {
+    background-color: #44546A;
+}
+
+.nav-text a:active {
+    background-color: #8497B0;
+}
+
+
+.search-block {
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+}
+
+.search-icon img {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 38px;
+    height: 38px;
+    padding: 5px;
+}
+
+.search-icon img:hover {
+    background-color: #BBBBBB;
+}
+
+.search-input input {
+    font-size: 16px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    background-color: #F2F2F2;
+    width: 232.819px;
+    height: 38px;
+    padding-left: 5px;
+    border-style: none;
+    margin: 0px;
+}
+
+
+.banner {
+    width: 100%;
+    min-width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 1280px;
+    height: 445px;
+}
+
+.article {
+    width: 1280px;
+    min-width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.section-pictures {
+    /* width: 981px; */
+    /* min-width: 1280px; */
+    height: 800px;
+    /* position: absolute;
+    left: 50%;
+    margin-left: -490.5px; */
+    width: 76.6%;
+    margin: 0 auto;
+}
+
+.section-pictures-title {
+    font-family: '微軟正黑體', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-pic-row {
+    display: flex;
+}
+
+/* @media screen and (max-width: 480px) {
+    .section-pic-row {
+        display: none;
+    }    
+} */
+
+
+.section-pictures img {
+    width: 267.59px;
+    height: 267.59px;
+    margin-right: 88.5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.section-pictures img:hover {
+    width: 280px;
+    height: 280px;
+}
+
+.section-pictures a {
+    font-size: 24px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+.footer {
+    /* display: flex; */
+    width: 100%;
+    min-width: 1280px;
+    height: 126px;
+    background-color: #222A35;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* ---------------------- */
+
+.footer-icon {
+    width: 100%;
+    min-width: 1280px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.footer-icon img {
+    margin-right: 29.1px;
+}
+
+#icon_fb {
+    width: 37.7953px;
+    height: 37.7953px;
+}
+
+#icon_ig {
+    width: 30.23624px;
+    height: 30.23624px;
+}
+
+#icon_twitter {
+    width: 37.7953px;
+    height: 37.7953px;
+}
+
+#icon_youtube {
+    width: 30.23624px;
+    height: 30.23624px;
+}
+
+/* ---------------------- */
+
+.footer-text {
+    width: 100%;
+    min-width: 1280px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+
+.footer-text a {
+    font-size: 14px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 480px;
+}
