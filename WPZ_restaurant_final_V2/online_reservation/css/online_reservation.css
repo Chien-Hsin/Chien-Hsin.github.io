@@ -1,0 +1,545 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+body{
+    display: block;
+    background-color: #E9E9E9;
+    /* line-height: 1.15; */
+}
+
+.header{
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #F5B033;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.header-text{
+    height:80px;
+    display: flex;
+    align-items: center;
+    margin-right:60px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #595959;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+}
+
+.header a:hover{
+    text-decoration:underline
+}
+
+.header span {
+    width: 2px;
+    height: 18px;
+    background-color: #595959;
+    margin: 0 7px;
+}
+
+.mainDomain {
+    width: 1280px;
+    height: 1136px;
+    background-color: #F4E3CE;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main_view {
+    width: 1220px;
+    height: 450px;
+    display: flex;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.main_view_left {
+    width: 745px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.main_view_picture {
+    width: 1280px;
+    height: 912.5px;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+.food-picture{
+    width: 745px;
+    height: auto;
+    transform:scale(1.3);
+}
+
+.main_view_right {
+    width: 475px;
+    height: 430px;
+    background-color: #F5B033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    width:386px;
+    height:auto;
+}
+
+.horizontal_line {
+    width: 1260px;
+    height: 3px;
+    background-color: #000000;
+    margin: 20px auto;
+}
+
+.main_operate{
+    width: 1280px;
+    height: 504px;
+}
+
+.main_form {
+    display: flex;
+    justify-content: center;
+}
+
+.form_frame {
+    width: 360px;
+    height: 510px;
+    border-style: solid;
+    border-color: #F5B033;
+    border-radius: 10px;
+    margin: 20px 20px 0 20px;
+}
+
+.form_frame p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '微軟正黑體', sans-serif;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content:center;
+    margin-top:38px;
+}
+
+.form_setting {
+    width: 340px;
+    height: 28px;
+    font-size: 16px;
+    font-family: '微軟正黑體', sans-serif;
+    margin-bottom: 27px;
+    margin-left: 6px;
+}
+
+.icon{
+    width:295px;
+    height:auto;
+    margin-top:47px;
+    margin-left:10px;
+}
+
+.submit_button {
+    width: 150px;
+    height: 48px;
+    margin-left:565px;
+    margin-top: 45px;
+    background-color: #ca191c;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: '微軟正黑體', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #E9E9E9;
+}
+
+.submit_button:hover {
+    opacity:0.8;
+    border-color:#595959;
+    border-style:solid;
+    border-width:5px;
+}
+
+.footer {
+    width: 1280px;
+    height: 120px;
+    background-color: #F5B033;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #595959;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer a:hover{
+    text-decoration:underline
+}
+
+.footer span {
+    width: 2px;
+    height: 18px;
+    background-color: #595959;
+    margin: 0 7px;
+}
+
+@media screen and (max-width:768px){
+.header{
+    width: 768px;
+    height: 60px;
+}
+
+.bt-cancle{
+    width:130px;
+    height:40px;
+    border-radius:20px; 
+    border-style:solid;
+    border-width:2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-color:#595959;
+}
+
+.bt-home{
+    width:70px;
+    height:40px;
+    border-radius:20px; 
+    border-style:solid;
+    border-width:2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-color:#595959;
+}
+
+.header-text{
+    height:60px;
+}
+
+.header a {
+    margin:0;
+    margin-bottom:2px;
+    font-size:16px;
+}
+
+.header span {
+    height:30px;
+    width: 3px;
+    margin: 21px 7px;
+    
+}
+
+.mainDomain {
+    width: 768px;
+    height: 720px;
+}
+
+.main_view {
+    width: 768px;
+    height: 277px;
+
+}
+
+.main_view_left {
+    width: 440px;
+    height: 257px;
+}
+
+.main_view_picture {
+    width: 768px;
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.food-picture{
+    width: 440px;
+    height: auto;
+    transform:scale(1.3);
+}
+
+.main_view_right {
+    width: 328px;
+    height: 257px;
+}
+
+ .logo1{
+    width:230px;
+    height:auto;
+} 
+
+.horizontal_line {
+    width: 758px;
+    margin: 15px auto;
+}
+
+.main_operate{
+    width: 768px;
+    height: 320px;
+}
+
+.form_frame {
+    width: 228px;
+    height: 315px;
+    margin-top:0;
+}
+
+.form_frame p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '微軟正黑體', sans-serif;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:center;
+    margin-top:15px;
+}
+
+.form_setting {
+    width: 190px;
+    height: 28px;
+    font-size: 16px;
+    font-family: '微軟正黑體', sans-serif;
+    margin-bottom: 27px;
+    margin-left: 7px;
+}
+
+.icon{
+    width:186px;
+    height:auto;
+    margin-top:28px;
+    margin-left:8px;
+}
+
+.submit_button {
+    width: 120px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left:324px;
+}
+
+.submit_button:hover {
+    opacity:0.8;
+    border-color:#595959;
+    border-style:solid;
+    border-width:5px;
+}
+
+.footer {
+    width: 768px;
+    height: 70px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #595959;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer a:hover{
+    text-decoration:underline
+}
+
+.footer span {
+    width: 3px;
+    height: 30px;
+    margin: 21px 7px;
+}
+
+}
+
+@media screen and (max-width:480px){
+
+.header{
+    padding:0;
+    width: 480px;
+    height: 90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.bt-cancle{
+    width:195px;
+    height:60px;
+    border-radius:30px; 
+    border-style:solid;
+    border-width:2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-color:#595959;
+}
+
+.bt-home{
+    width:100px;
+    height:60px;
+    border-radius:30px; 
+    border-style:solid;
+    border-width:2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-color:#595959;
+}
+
+.header-text{
+    margin: auto 0;
+}
+
+.header a {
+    margin:0;
+    margin-bottom:2px;
+    font-size:27px;
+}
+
+.header span {
+    height:40px;
+    width: 3px;
+    margin: auto 32px;
+    
+}
+
+.mainDomain {
+    width: 480px;
+    height: 1917px;
+}
+
+.main_view {
+    width: 480px;
+    height: 655px;
+    flex-direction: column;
+}
+
+.main_view_left {
+    width: 480px;
+    height: 385px;
+}
+
+.main_view_picture {
+    width: 768px;
+    margin-left:80px;
+    margin-top:90px;
+}
+
+.food-picture{
+    width: 440px;
+    height: auto;
+    transform:scale(2.6);
+}
+
+.main_view_right {
+    width: 480px;
+    height: 270px;
+}
+
+ .logo1{
+    width:240px;
+    height:auto;
+} 
+
+.horizontal_line {
+    width: 450px;
+    margin: 20px auto;
+}
+
+.main_operate{
+    width: 420px;
+    height: auto;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #F5B033;
+    border-width: 8px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.main_form {
+    flex-direction: column;
+}
+
+.form_frame {
+    width: auto;
+    height: auto;
+    margin:0;
+    border-style: none;
+}
+
+.form_frame p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: '微軟正黑體', sans-serif;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.form_setting {
+    width: 360px;
+    height: 28px;
+    font-size: 16px;
+    font-family: '微軟正黑體', sans-serif;
+    margin:0 auto;
+    margin-bottom: 27px;
+}
+
+.icon{
+    width:300px;
+    height:auto;
+    margin-top:13px;
+    margin-left:-5px;
+}
+
+.submit_button {
+    width: 200px;
+    height: 72px;
+    margin-left:150px;
+    margin-top:15px;
+    margin-bottom:10px; 
+    border-style: solid;
+    border-color: #000000;
+    border-width:5px;
+}
+
+/* .submit_button:hover {
+    opacity:0.8;
+    border-color:#595959;
+    border-style:solid;
+    border-width:5px;
+} */
+
+.footer {
+    width: 480px;
+    height: 120px;
+}
+
+.footer a {
+    font-size: 27px;
+}
+
+/* .footer a:hover{
+    color:#000000;
+} */
+
+}
